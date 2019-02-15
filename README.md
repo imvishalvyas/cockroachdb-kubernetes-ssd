@@ -1,6 +1,7 @@
 ### Deploy cockroach db with ssd persistent disk on Kubernetes.
 You can prefer cockroach db website steps to deploy cluster on kubernetes. but you just need to change in your cockroach file cockroachdb-statefulset-secure.yaml for ssd storage. and also you will have to create storage class for that.
 
+https://www.cockroachlabs.com/docs/stable/orchestrate-cockroachdb-with-kubernetes.html
 
 ### Define storage class.
 
