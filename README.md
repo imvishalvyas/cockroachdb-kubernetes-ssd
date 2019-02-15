@@ -2,7 +2,7 @@
 You can prefer cockroach db website steps to deploy cluster on kubernetes. but you just need to change in your cockroach file cockroachdb-statefulset-secure.yaml for ssd storage. and also you will have to create storage class for that.
 
 
-# Define storage class.
+### Define storage class.
 
 ```
 apiVersion: storage.k8s.io/v1
@@ -18,7 +18,7 @@ parameters:
 kubectl apply -f storage.yaml
 ```
 
-# Now you have to modified the file "cockroachdb-statefulset-secure.yaml"
+### Now you have to modified the file "cockroachdb-statefulset-secure.yaml"
 at the end of file add below line befor applying cockroach statefulset file to kubernetes.
 
 ```
